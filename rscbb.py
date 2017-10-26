@@ -103,10 +103,6 @@ class rscbb:
 
         ############ start MY CODE HERE ####################
 
-        # print slot
-        # print min_bid
-        # print max_bid
-
         # NOT expecting to win, just bid value
         if min_bid > self.value:
             bid = self.value
@@ -128,5 +124,3 @@ class rscbb:
     def __repr__(self):
         return "%s(id=%d, value=%d)" % (
             self.__class__.__name__, self.id, self.value)
-
-
